@@ -1,15 +1,12 @@
-.container
+		.container
 		{
 		 	text-align:center;
-			height:500vh;
-			width:700vw;
+			height:500px;
+			width:700px;
 			background-color: white;
 			border-radius:15px;
 			margin: 150px 600px;
 			padding-top: 150px;
-                       
-                        resize: both;
-                        overflow: auto;
 
 		}
 		.form
