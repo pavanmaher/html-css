@@ -1,0 +1,29 @@
+.container
+		{
+		 	text-align:center;
+			height:500vh;
+			width:700vw;
+			background-color: white;
+			border-radius:15px;
+			margin: 150px 600px;
+			padding-top: 150px;
+                       
+                        resize: both;
+                        overflow: auto;
+
+		}
+		.form
+		{
+			margin:30px;
+		}
+		.button
+		{
+			background-color: rgb(255, 0, 102);
+			border-radius:50px;
+			text-align:center;
+			padding: 10px 30px 10px 10px;
+			width: 300px;
+			height: 60px;
+			margin: 20px;
+			font-size: 25px;
+		}
