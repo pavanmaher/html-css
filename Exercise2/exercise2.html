@@ -12,12 +12,12 @@
 }
 .right
 {
-	width:20%;
-	height: 70vh;
+	width:25%;
+	height: 58vh;
 	margin-left: 100px;
-	margin-top: 100px;
-	text-align: center;
-	
+	margin-top: 140px;
+	text-align: left;
+	box-shadow: 2px 2px 20px grey;
 }
 .heading1
 {
@@ -109,7 +109,7 @@
 }
 .devices
 {
-	margin-top: 20px;
+	margin-top: 30px;
 	text-align: left;
 	padding-left: 30px;
 }
@@ -121,19 +121,26 @@
   display: flex;
   padding-left: 8px;
 }
+.radio
+{
+	display: flex;
+    text-align: left;
+    margin-left: ;
+    margin-top: 10px;
+}
 .button
 {
-    padding: 14px 15px;
+    padding: 17px 18px;
     margin-bottom: 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
     margin-left: 10px;
-    width: 100px;
+    width: 110px;
     background-color: white;
     border-radius: 2px;
-    box-shadow: none;
+    box-shadow: 1px 1px 5px grey;
    
 }
 .get
@@ -143,7 +150,7 @@
 	height: 60px;
 	color:white;
 	background: rgb(0, 204, 204);
-	margin-top: 30px;
+	margin-top: 20px;
 	font-size: 130%;
 }
 .bt
@@ -154,7 +161,7 @@
 </style>
 <title>Loconav</title>
 </head>
-<body style="display: flex;">
+<body style="display: flex; min-width: 500px;">
 <div class="left">
 	<div class="heading1"><h1>Why Loconav's Vehicle Tracking System?</h1>
     </div>
@@ -163,20 +170,20 @@
     		<div class="trac_image">
     			<img src="ex2_intelligent_vehicle_tracking.png" alt="ex2_intelligent_vehicle_tracking"  width="80px" height="85px">
     		</div>
-    		<h2>
-    			Intelligent Vehicle tracking
-    		</h2>
-    		<p>Whether you are a single vehicle or a fleet owner, Loconav is determined to protect and monitor your asset from theft or harm</p>
+    		<h3>
+    			INTELLIGENT VEHICLE TRACKING
+    		</h3>
+    		<center style="width: 450px;font-size: 130%">Whether you are a single vehicle or a fleet owner, Loconav is determined to protect and monitor your asset from theft or harm</center>
     	</div>
     	<div class="row1_col2">
     		<div class="lock_image"><img src="ex2_vehicle_lock.png" alt="ex2_vehicle_lock" width="110px" height="70px">      
     		</div>
-    		<h2>
-    			Vehicle Lock
-    		</h2>
-    		<p>
+    		<h3>
+    			VEHICLE LOCK
+    		</h3>
+    		<center style="width: 450px;font-size: 130%">
     			Turn on vehicle lock from Loconav’s GPS Tracking software and be assured that your vehicle won’t start without your permission
-    		</p>
+    		</center>
     	</div>
     	
     </div>
@@ -185,20 +192,20 @@
     		<div class="trac_image">
     			<img src="ex2_live_alerts.png" alt="ex2_live_alerts"  width="80px" height="85px">
     		</div>
-    		<h2>
-    			Live alerts
-    		</h2>
-    		<p>Get live over-speeding, entry and exit points, monitor idling, Vehicle services and maintenance alerts with our real time GPS Vehicle Tracking System</p>
+    		<h3>
+    			LIVE ALERTS
+    		</h3>
+    		<center style="width: 450px;font-size: 130%">Get live over-speeding, entry and exit points, monitor idling, Vehicle services and maintenance alerts with our real time GPS Vehicle Tracking System</center>
     	</div>
     	<div class="row2_col2">
     		<div class="lock_image"><img src="ex2_vehicle_health.png" alt="ex2_vehicle_health" width="110px" height="70px">      
     		</div>
-    		<h2>
-    			Vehicle health
-    		</h2>
-    		<p>
+    		<h3>
+    			VEHICLE HEALTH
+    		</h3>
+    		<center style="width: 450px;font-size: 130%">
     			Get diagnostic, mileage and health report of your vehicle so that you can worry less about your vehicle’s well-being with real time GPS Tracking and enjoy your time on road
-    		</p>
+    		</center>
     	</div>
     	
     	
@@ -216,23 +223,21 @@
 					I want to purchase devices for
 			</div>
 	</div>
-	<div class="vehicles">
-		<button class="button" type="submit" value="Truck">
-			Truck
-		</button>
-		<button class="button" type="submit" value="Truck">
-			Car
-		</button>
-		<button class="button" type="submit" value="Truck">
-			Bus
-		</button>
+	<div class="radio">
+		<ul >
+		<input class="button" style="margin-left: auto" type="submit" value="Truck">
+		<input class="button" type="submit" value="Car">
+		<input class="button" type="submit" value="Bus">
+	    </ul>
 	</div>
 	<div class="bt">
 		<button class="get" type="submit" >
 		GET STARTED
 	    </button>
 	</div>
-	
+	<div style="text-align: center;padding-top: 30px">
+		Call us: +91 8448881414
+	</div>
 </div>
 </body>
 </html>
