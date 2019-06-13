@@ -121,26 +121,9 @@
   display: flex;
   padding-left: 8px;
 }
-.radio
-{
-	display: flex;
-    text-align: left;
-    margin-left: ;
-    margin-top: 10px;
-}
 .button
 {
-    padding: 17px 18px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    margin-left: 10px;
-    width: 110px;
-    background-color: white;
-    border-radius: 2px;
-    box-shadow: 1px 1px 5px grey;
+    display: none;
    
 }
 .get
@@ -157,6 +140,25 @@
 {
 	text-align: left;
 	margin-left: 30px;
+}
+.radio
+{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.radio label {
+  display: inline-block;
+  width: 90px;
+  padding: 10px;
+  border: solid 2px #ccc;
+  transition: all 0.3s;
+}
+.radio input[type="radio"] {
+  display: none;
+}
+
+.radio input[type="radio"]:checked +label {
+  background-color: #2196F3;
 }
 </style>
 <title>Loconav</title>
@@ -224,11 +226,12 @@
 			</div>
 	</div>
 	<div class="radio">
-		<ul >
-		<input class="button" style="margin-left: auto" type="submit" value="Truck">
-		<input class="button" type="submit" value="Car">
-		<input class="button" type="submit" value="Bus">
-	    </ul>
+		<input id="a1" type="radio" value="Truck" name="vec">
+		<label for="a1">Truck</label>
+		<input id="a2"type="radio" name="vec" value="Car">
+		<label for="a2">Car</label>
+		<input id="a3" type="radio" name="vec" value="Bus">
+		<label for="a3">Bus</label>
 	</div>
 	<div class="bt">
 		<button class="get" type="submit" >
